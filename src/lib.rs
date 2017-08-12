@@ -109,7 +109,7 @@ extern crate serde_json;
 mod caveat;
 mod crypto;
 pub mod error;
-mod serialization;
+pub mod serialization;
 pub mod verifier;
 
 pub use caveat::{FirstPartyCaveat, ThirdPartyCaveat};
